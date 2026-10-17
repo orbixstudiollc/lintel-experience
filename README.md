@@ -1,8 +1,10 @@
-# Lintel · Casa Serra
+# Lintel · House Tour
 
 At first it looks like a flat floor plan of a house. Until you scroll.
 
-**Live demo:** https://sam1983aing.github.io/casa-serra/
+**Live demo:** https://lintel-experience.vercel.app/
+
+This fork adapts [Sam Aing’s original concept](https://github.com/Sam1983Aing/casa-serra) with Lintel branding and locally hosted Google Fonts. Original design and scene credit belongs to Sam Aing. The original project notes follow below.
 
 **The starter prompt, on its own:** [starter-prompt.md](starter-prompt.md)
 

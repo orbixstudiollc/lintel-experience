@@ -2,11 +2,13 @@
 
 This is a local copy of [Casa Serra by Sam1983Aing](https://github.com/Sam1983Aing/casa-serra), based on upstream commit `b47b775`. The published site is [sam1983aing.github.io/casa-serra](https://sam1983aing.github.io/casa-serra/). Credit for the original design, loading sequence, architecture, camera choreography, and demo belongs to its upstream author.
 
-The original scene and presentation sources are preserved except for the font-loading lookup, which recognizes the local `data-fonts` stylesheet. Local additions provide a small development server and tests; browser dependencies and fonts are vendored for local loading. See the original [README.md](README.md) for the author's description and texture credits.
+The original scene and presentation are retained with Lintel branding and a font-loading lookup that recognizes the local `data-fonts` stylesheet. Local additions provide a small development server and tests; browser dependencies and fonts are vendored for local loading. See [README.md](README.md) for the author's description and texture credits.
 
 The local copy also synchronises the smooth scroller and camera to the start before the loader exits, so reloading after the finale opens on the floor plan instead of carrying over the previous position. Explicit `?at=` stage links keep their upstream behavior.
 
 Typography uses the requested Fjalla One for headings and Inter Tight for body text and UI labels. The Google Fonts files and their licenses are included locally. Share metadata points to this fork's Vercel deployment; the original author credit remains visible.
+
+The public house name is Lintel House, and the browser title is Lintel · House Tour. The live site is https://lintel-experience.vercel.app/ and this fork is https://github.com/orbixstudiollc/lintel-experience. The fallback video is a fresh capture of the rebranded 3D walkthrough. Upstream links remain in documentation as source attribution.
 
 ## Static hosting
 
