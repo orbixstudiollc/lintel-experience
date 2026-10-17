@@ -1,0 +1,16 @@
+{
+  "name": "casa-serra-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local runner for the published Casa Serra demo by Sam1983Aing",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build-static.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
