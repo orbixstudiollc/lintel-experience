@@ -6,6 +6,8 @@ The original scene and presentation sources are preserved except for the font-lo
 
 The local copy also synchronises the smooth scroller and camera to the start before the loader exits, so reloading after the finale opens on the floor plan instead of carrying over the previous position. Explicit `?at=` stage links keep their upstream behavior.
 
+The opening headline uses the locally included Instrument Serif with an italic terracotta accent and responsive spacing. Share metadata points to this fork's Vercel deployment; the original author credit remains visible.
+
 ## Static hosting
 
 `npm run build` copies the complete browser experience and its assets into `dist/`. The Vercel configuration serves that directory without running the local Node server or installing dependencies. Original author and material credits remain in the experience and upstream README.
